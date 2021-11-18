@@ -148,18 +148,6 @@
       <p>dev.finance$</p>
     </footer>
 
-    <script>
-      const Modal = {
-        open() {
-          document.querySelector(".modal-overlay").classList.add("active");
-        },
-        close() {
-          document
-            .querySelectorAll(".modal-overlay input")
-            .forEach((e) => (e.value = ""));
-          document.querySelector(".modal-overlay").classList.remove("active");
-        },
-      };
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
