@@ -2,10 +2,16 @@
 
 <br>
 <div align="center">
-  <img alt="dev.finances" src="https://github.com/rocketseat-education/maratona-discover-01/blob/main/.github/devfinances.png" width="80%">
+  <a href="https://vitorhonna.github.io/rocketseat-maratona-devfinances/">
+    <img alt="dev.finances" src="https://github.com/rocketseat-education/maratona-discover-01/blob/main/.github/devfinances.png" width="80%">
+  </a>
   <br>
   Mini sistema financeiro com HTML, CSS e JS. <br>
   Possibilidade de adicionar e remover transações, com os dados persistidos no Local Storage do navegador.
+  <br><br>
+  
+  [Clique aqui](https://vitorhonna.github.io/rocketseat-maratona-devfinances/) para ver o projeto pronto e funcionando 🥰
+  
 </div>
 
 ## 🚀 Tecnologias
