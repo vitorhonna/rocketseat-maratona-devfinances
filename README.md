@@ -7,7 +7,8 @@
   </a>
   <br>
   Mini sistema financeiro com HTML, CSS e JS. <br>
-  Possibilidade de adicionar e remover transações, com os dados persistidos no Local Storage do navegador.
+  Possibilidade de adicionar e remover transações, ver o balanço de entradas, saídas e total. <br>
+  Dados persistidos no Local Storage do navegador.
   <br><br>
   
   [Clique aqui](https://vitorhonna.github.io/rocketseat-maratona-devfinances/) para ver o projeto pronto e funcionando 🥰
