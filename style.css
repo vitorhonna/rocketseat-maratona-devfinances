@@ -262,7 +262,7 @@ td.description {
   width: 100%;
 }
 
-.input-group small {
+.input-group .help {
   opacity: 0.5;
 }
 
