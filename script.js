@@ -142,6 +142,24 @@ const Utils = {
     const dateArray = date.split("-");
     return `${dateArray[2]}/${dateArray[1]}/${dateArray[0]}`;
   },
+
+  maxDate() {
+    let today = new Date();
+    let dd = today.getDate();
+    let mm = today.getMonth() + 1; //January is 0!
+    let yyyy = today.getFullYear();
+
+    if (dd < 10) {
+      dd = "0" + dd;
+    }
+
+    if (mm < 10) {
+      mm = "0" + mm;
+    }
+
+    today = yyyy + "-" + mm + "-" + dd;
+    document.getElementById("date").setAttribute("max", today);
+  },
 };
 
 const Form = {
@@ -216,6 +234,8 @@ const App = {
     DOM.updateBalance();
 
     Storage.set(Transaction.all);
+
+    Utils.maxDate();
   },
 
   reload() {
