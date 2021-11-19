@@ -131,7 +131,7 @@ const Utils = {
 
   formatAmount(value) {
     value = value.replace(",", ".");
-    value = Number(value) * 100;
+    value = Math.round(Number(value) * 100);
     if (isNaN(value)) {
       throw new Error("O valor da transação deve ser um número");
     }
